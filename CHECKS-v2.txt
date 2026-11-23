@@ -1,0 +1,4 @@
+one-word-first-thought checks v2 (after revision)
+node24 exit 0, node22.21.1 exit 0, outputs byte-identical
+entry.txt: 'petrichor', 9 bytes, no newline, 9 chars, gate 1-24 PASS
+negative test WORD='petri chor': exit 1, no entry.txt — validation works
